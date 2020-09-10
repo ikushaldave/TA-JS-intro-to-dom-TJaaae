@@ -27,7 +27,7 @@ const allHrsArray = [...allHrs];
 
 // Set the border of the all the hr elements to "1px solid tomato"
 
-allHrsArray.forEach((e) => (e.style.border = "1px"));
+allHrsArray.forEach((e) => (e.style.border = "1px solid tomato"));
 
 // Change the background of all the hr to "antiquewhite" using for of loop.
 
@@ -207,6 +207,7 @@ box7.append(imgElm);
 // Change the width and height of the image to `100%`
 
 imgElm.style.width = "100%";
+imgElm.style.height = "100%";
 
 // Select the box 5 using class five
 
